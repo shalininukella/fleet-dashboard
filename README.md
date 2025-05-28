@@ -92,5 +92,5 @@ The frontend is built using **React + TypeScript + Vite** and styled with **Tail
 
 * Frontend: React + TypeScript + Vite + TailwindCSS
 * Backend: Express.js mock API
-* Live Demo: [Netlify Link Here](https://your-netlify-link.netlify.app)
-* GitHub Repo: [GitHub Repository Here](https://github.com/your-repo-link)
+* Live Demo: [Netlify Link](https://dashing-melba-1432b5.netlify.app/)
+* GitHub Repo: [GitHub Repository](https://github.com/shalininukella/fleet-dashboard)
