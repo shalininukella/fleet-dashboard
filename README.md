@@ -51,8 +51,6 @@ The frontend is built using **React + TypeScript + Vite** and styled with **Tail
    npm run dev
    ```
 
-4. Visit `http://localhost:5173` in your browser.
-
 ## Features
 
 * Overview Cards:
