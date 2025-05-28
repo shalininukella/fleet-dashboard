@@ -27,7 +27,7 @@ This project uses **Express.js** to serve mock data.
 ### Available Endpoints
 
 * `GET /api/overview` – Returns vehicle summary stats
-* `GET /api/usage` – Returns vehicle usage data for 7, 15, or 30 days
+* `GET /api/usageStats` – Returns vehicle usage data for 7, 15, or 30 days
 
 > Make sure the backend is running before starting the frontend.
 
