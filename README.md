@@ -2,6 +2,48 @@
 
 A responsive Fleet Overview Dashboard built using **React.js**, **TailwindCSS**, and **Express.js**, designed to monitor fleet usage and vehicle stats. This app displays key metrics and visualizes data trends with clean, modern UI components.
 
+## Features
+
+* Overview Cards:
+
+  * Total Vehicles
+  * Vehicles in Use
+  * Vehicles Idle
+  * Vehicles Under Maintenance
+
+* Graph Section:
+
+  * Vehicle usage data visualized using **Recharts**
+  * Supports 7/15/30 day view toggle
+
+* Responsive UI:
+
+  * Mobile-first layout with TailwindCSS
+
+* Loading States:
+
+  * Custom loading spinner while fetching data
+
+* Reusable Components:
+
+  * `OverviewCard`, `UsageChart`, `RangeSelector`, `LoadingSpinner`, and `Button`
+
+## Assumptions and Design Decisions
+
+* Used Express.js for API handling and scalability.
+* Focused on modularity and clean UI with reusable components.
+* Visual design uses **TailwindCSS** and **React Icons** to maintain a modern and responsive UI.
+* Built-in range selection (7/15/30 days) helps quickly visualize usage trends.
+* Loading states are managed using a **custom spinner** component.
+* Minimalist design with emphasis on clarity, responsiveness, and performance
+
+## Submission Checklist
+
+* Frontend: React + TypeScript + Vite + TailwindCSS
+* Backend: Express.js mock API
+* Live Demo: [Netlify Link](https://dashing-melba-1432b5.netlify.app/)
+* GitHub Repo: [GitHub Repository](https://github.com/shalininukella/fleet-dashboard)
+
 ## Backend Setup (Express API)
 
 This project uses **Express.js** to serve mock data.
@@ -50,45 +92,3 @@ The frontend is built using **React + TypeScript + Vite** and styled with **Tail
    ```bash
    npm run dev
    ```
-
-## Features
-
-* Overview Cards:
-
-  * Total Vehicles
-  * Vehicles in Use
-  * Vehicles Idle
-  * Vehicles Under Maintenance
-
-* Graph Section:
-
-  * Vehicle usage data visualized using **Recharts**
-  * Supports 7/15/30 day view toggle
-
-* Responsive UI:
-
-  * Mobile-first layout with TailwindCSS
-
-* Loading States:
-
-  * Custom loading spinner while fetching data
-
-* Reusable Components:
-
-  * `OverviewCard`, `UsageChart`, `RangeSelector`, `LoadingSpinner`, and `Button`
-
-## Assumptions and Design Decisions
-
-* Used Express.js for API handling and scalability.
-* Focused on modularity and clean UI with reusable components.
-* Visual design uses **TailwindCSS** and **React Icons** to maintain a modern and responsive UI.
-* Built-in range selection (7/15/30 days) helps quickly visualize usage trends.
-* Loading states are managed using a **custom spinner** component.
-* Minimalist design with emphasis on clarity, responsiveness, and performance
-
-## Submission Checklist
-
-* Frontend: React + TypeScript + Vite + TailwindCSS
-* Backend: Express.js mock API
-* Live Demo: [Netlify Link](https://dashing-melba-1432b5.netlify.app/)
-* GitHub Repo: [GitHub Repository](https://github.com/shalininukella/fleet-dashboard)
